@@ -401,9 +401,9 @@ const List<Choice> choices = const <Choice>[
   const Choice(
       title: 'assets/Horshoe Spread Tarot Card Reading.png',
       content:
-          "Discover a unique perspective on your life's path. Explore energies and gain insights into key areas of your life."),
+          "Horseshoe Spread reading will help you Discover a unique perspective on your life's path. Explore energies and gain insights into key areas of your life."),
   const Choice(
       title: 'assets/Pentagram Spread Tarot Card Reading.png',
       content:
-          "Unveil the hidden meanings and connections within your life's journey. Explore the elements and aspects that shape your experiences"),
+          "Your Pentacle spread Unveil the hidden meanings and connections within your life's journey. Explore the elements and aspects that shape your experiences"),
 ];
