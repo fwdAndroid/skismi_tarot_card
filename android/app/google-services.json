@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "262586285411",
+    "project_id": "skismihoroscopeastrology",
+    "storage_bucket": "skismihoroscopeastrology.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262586285411:android:f17f27ee817958c18ae756",
+        "android_client_info": {
+          "package_name": "com.example.skismi_astrology_horoscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262586285411-t1skk2olmtgf31i5c4rrjc18t31htqsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skismi_astrology_horoscope",
+            "certificate_hash": "d032a8260e33ba4be50791313c00d31bbdfe96a4"
+          }
+        },
+        {
+          "client_id": "262586285411-6ftt16bp7fr7dutrc7rtrjcgnvpengiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeNj8bXfDpuo-eGlIYkj5ZUsD8SE0Wpmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262586285411-6ftt16bp7fr7dutrc7rtrjcgnvpengiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262586285411:android:b439d938991d79818ae756",
+        "android_client_info": {
+          "package_name": "com.example.skismi_tarot_card"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262586285411-6ftt16bp7fr7dutrc7rtrjcgnvpengiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeNj8bXfDpuo-eGlIYkj5ZUsD8SE0Wpmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262586285411-6ftt16bp7fr7dutrc7rtrjcgnvpengiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
