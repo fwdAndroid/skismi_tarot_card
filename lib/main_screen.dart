@@ -96,7 +96,7 @@ class _MainScreenState extends State<MainScreen> {
                                 ConstrainedBox(
                                   constraints: BoxConstraints.expand(
                                     width: 200,
-                                    height: 100,
+                                    height: 115,
                                   ),
                                   child: Text(
                                     Choice.content,
@@ -401,9 +401,9 @@ const List<Choice> choices = const <Choice>[
   const Choice(
       title: 'assets/Horshoe Spread Tarot Card Reading.png',
       content:
-          "Horseshoe Spread reading will help you Discover a unique perspective on your life's path. Explore energies and gain insights into key areas of your life."),
+          "Your Horseshoe Spread reading will help you discover a unbique perspective on your life's path. Explore energies and gain insights into key areas of your life."),
   const Choice(
       title: 'assets/Pentagram Spread Tarot Card Reading.png',
       content:
-          "Your Pentacle spread Unveil the hidden meanings and connections within your life's journey. Explore the elements and aspects that shape your experiences"),
+          "Your Pentacle Spread will unveil the hidden meanings and connections within your life's journey. Explore the elements and aspects that shape your experiences."),
 ];
