@@ -381,19 +381,19 @@ const List<Choice> choices = const <Choice>[
   const Choice(
       title: 'assets/One Card Tarot Card Reading.png',
       content:
-          'Gain quick insights and guidance with a single card reading.Discover concise messages from the cards'),
+          'Gain quick insights and guidance with a single card reading. Discover concise messages from the cards'),
   const Choice(
       title: 'assets/Three Card Tarot Card Reading.png',
       content:
-          'Dive deeper into your situation with a three-card reading.Explore past, present, and future influences for valuable perspectives.'),
+          'Dive deeper into your situation with a three-card reading. Explore past, present, and future influences for valuable perspectives.'),
   const Choice(
       title: 'assets/Career Tarot Card Reading.png',
       content:
-          'Seek guidance and clarity for your professional life.Uncover hidden opportunities, obstacles, and insights to empower your career decisions'),
+          'Seek guidance and clarity for your professional life. Uncover hidden opportunities, obstacles, and insights to empower your career decisions'),
   const Choice(
       title: 'assets/Relationship Tarot Card Reading.png',
       content:
-          'Gain valuable insights into your romantic relationships.Explore dynamics, challenges, and potential outcomes to nurture and improve your love life'),
+          'Gain valuable insights into your romantic relationships. Explore dynamics, challenges, and potential outcomes to nurture and improve your love life'),
   const Choice(
       title: 'assets/Celtic Cross Spread Tarot Card Reading.png',
       content:
@@ -401,9 +401,9 @@ const List<Choice> choices = const <Choice>[
   const Choice(
       title: 'assets/Horshoe Spread Tarot Card Reading.png',
       content:
-          "Discover a unique perspective on your life's path.Explore energies and gain insights into key areas of your life."),
+          "Discover a unique perspective on your life's path. Explore energies and gain insights into key areas of your life."),
   const Choice(
       title: 'assets/Pentagram Spread Tarot Card Reading.png',
       content:
-          "Unveil the hidden meanings and connections within your life's journey.Explore the elements and aspects that shape your experiences"),
+          "Unveil the hidden meanings and connections within your life's journey. Explore the elements and aspects that shape your experiences"),
 ];
