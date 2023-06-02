@@ -67,7 +67,10 @@ class _MainScreenState extends State<MainScreen> {
             Expanded(
                 child: GestureDetector(
               child: CarouselSlider(
-                options: CarouselOptions(autoPlay: true),
+                options: CarouselOptions(
+                  height: 300,
+                  autoPlay: true,
+                ),
                 items: choices
                     .map((Choice) => Container(
                           height: MediaQuery.of(context).size.height,
@@ -87,7 +90,7 @@ class _MainScreenState extends State<MainScreen> {
                                     Choice.title,
                                     fit: BoxFit.cover,
                                     width: 200,
-                                    height: 250,
+                                    height: 300,
                                   ),
                                 ),
                                 SizedBox(
@@ -132,15 +135,16 @@ class _MainScreenState extends State<MainScreen> {
                           child: ListBody(
                             children: <Widget>[
                               TextButton(
-                                child: Text("Daily Horoscope Readings"),
+                                child: Text("One Card One Tarot Reading"),
                                 onPressed: () {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
                                           builder: (builder) => MyWidget(
-                                                title: "Horoscope Readings",
+                                                title:
+                                                    "One Card One Tarot Reading",
                                                 url:
-                                                    "https://skismi.com/daily-horoscope-resultsxy/",
+                                                    "https://skismi.com/tarot-card-results-trial/",
                                               )));
                                 },
                               ),
