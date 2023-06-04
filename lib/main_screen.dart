@@ -59,7 +59,7 @@ class _MainScreenState extends State<MainScreen> {
               margin: EdgeInsets.only(left: 10, right: 10, top: 20),
               height: 60,
               child: Text(
-                "Welcome to the Skismi Horoscopes and Astrology app. Discover your destiny with Skismi's AI-generated readings",
+                "Welcome to the Skismi Tarot Card Reading app. Discover your destiny with Skismi's AI-generated readings.",
                 style: TextStyle(color: Colors.white, fontSize: 16),
                 textAlign: TextAlign.center,
               ),
