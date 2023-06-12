@@ -135,14 +135,14 @@ class _MainScreenState extends State<MainScreen> {
                           child: ListBody(
                             children: <Widget>[
                               TextButton(
-                                child: Text("One Card One Tarot Reading"),
+                                child: Text("One Card Tarot Card Reading"),
                                 onPressed: () {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
                                           builder: (builder) => MyWidget(
                                                 title:
-                                                    "One Card One Tarot Reading",
+                                                    "One Card Tarot Card Reading",
                                                 url:
                                                     "https://skismi.com/tarot-card-results-trial/",
                                               )));
@@ -150,6 +150,38 @@ class _MainScreenState extends State<MainScreen> {
                               ),
                               SizedBox(
                                 height: 10,
+                              ),
+                              TextButton(
+                                child: Text("Sarcastic Tarot Card Reading"),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    "Sarcastic Tarot Card Reading",
+                                                url:
+                                                    "https://skismi.com/sarcastic-tarot/",
+                                              )));
+                                },
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text(
+                                    'Uplifting "Oprah" Style Tarot Card Reading'),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    'Uplifting "Oprah" Style Tarot Card Reading',
+                                                url:
+                                                    "https://skismi.com/oprah-tarot/",
+                                              )));
+                                },
                               ),
                             ],
                           ),
