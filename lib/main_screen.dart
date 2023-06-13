@@ -183,6 +183,74 @@ class _MainScreenState extends State<MainScreen> {
                                               )));
                                 },
                               ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text('Wildcard Tarot Card Reading'),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    'Wildcard Tarot Card Reading',
+                                                url:
+                                                    "https://skismi.com/tarot-wildcard/",
+                                              )));
+                                },
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text('Past Life Tarot Card Reading'),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    'Past Life Tarot Card Reading',
+                                                url:
+                                                    "https://skismi.com/tarot-past/",
+                                              )));
+                                },
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text('Spirit Animal Tarot Card Reading'),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    ' Spirit Animal Tarot Card Reading',
+                                                url:
+                                                    "https://skismi.com/tarot-spirit/",
+                                              )));
+                                },
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text('Elemental Tarot Card Reading'),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    'Elemental Tarot Card Reading',
+                                                url:
+                                                    "https://skismi.com/tarot-elemental/",
+                                              )));
+                                },
+                              ),
                             ],
                           ),
                         ),
