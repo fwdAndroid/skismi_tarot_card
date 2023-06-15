@@ -48,6 +48,7 @@ dependencies:
   social_login_buttons: ^1.0.7
   url_launcher: ^6.1.11
   flutter_launcher_icons: ^0.13.1
+  printing: ^5.11.0
 
 dev_dependencies:
 flutter_launcher_icons:

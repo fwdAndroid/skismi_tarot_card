@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:printing/printing.dart';
 
 class MyWidget extends StatefulWidget {
   String url;
@@ -141,6 +142,15 @@ class _MyWidgetState extends State<MyWidget> {
                 child: Text("Back"),
                 onPressed: () async {
                   Navigator.pop(context);
+                },
+              ),
+              ElevatedButton(
+                child: Text("Print"),
+                onPressed: () async {
+                  if (webViewController != null) {
+                    webViewController!.printCurrentPage();
+                    // Handle the PDF data here (e.g., save it or open it with a PDF viewer)
+                  }
                 },
               ),
             ],
