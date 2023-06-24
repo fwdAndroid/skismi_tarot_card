@@ -101,10 +101,10 @@ class _ExpertsState extends State<Experts> {
                         MaterialPageRoute(
                             builder: (builder) => MyWidget(
                                   url: "https://skismi.com/tarot-card-career/ ",
-                                  title: "Career Tarot Card Reading",
+                                  title: "Career Spread Tarot Card Reading",
                                 )));
                   },
-                  child: Text("Career Tarot Card Reading"),
+                  child: Text("Career Spread Tarot Card Reading"),
                 ),
               ),
             ),
@@ -123,10 +123,11 @@ class _ExpertsState extends State<Experts> {
                             builder: (builder) => MyWidget(
                                   url:
                                       "https://skismi.com/tarot-card-relationship/",
-                                  title: "Relationship Tarot Card Reading",
+                                  title:
+                                      "Relationship Spread Tarot Card Reading",
                                 )));
                   },
-                  child: Text("Relationship Tarot Card Reading"),
+                  child: Text("Relationship Spread Tarot Card Reading"),
                 ),
               ),
             ),
@@ -167,10 +168,10 @@ class _ExpertsState extends State<Experts> {
                             builder: (builder) => MyWidget(
                                   url:
                                       "https://skismi.com/tarot-card-horseshoe ",
-                                  title: "Horshoe Spread Tarot Card Reading",
+                                  title: "Horseshoe Spread Tarot Card Reading",
                                 )));
                   },
-                  child: Text("Horshoe Spread Tarot Card Reading"),
+                  child: Text("Horseshoe Spread Tarot Card Reading"),
                 ),
               ),
             ),
